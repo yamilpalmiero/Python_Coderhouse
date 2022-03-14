@@ -11,6 +11,9 @@ class Persona:
     self.nombre=nombre
     self.dni=dni
     self.edad=edad
+    
+  def hablar(self, mensaje):
+    print(f'{mensaje}')  
 
   def getEspecie(self, especie, brazos):
     print(f'Es un {self.especie} y tiene {self.brazos} brazos.')
